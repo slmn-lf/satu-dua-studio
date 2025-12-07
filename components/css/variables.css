@@ -1,0 +1,48 @@
+/* Global Variables & Custom Properties */
+
+:root {
+  /* Colors */
+  --color-primary: #2c3e50;
+  --color-secondary: #3498db;
+  --color-light: #ecf0f1;
+  --color-lighter: #f5f5f5;
+  --color-text: #fff;
+  --color-border: #ccc;
+  --color-shadow: rgba(0, 0, 0, 0.1);
+
+  /* Spacing */
+  --spacing-xs: 5px;
+  --spacing-sm: 10px;
+  --spacing-md: 20px;
+  --spacing-lg: 30px;
+  --spacing-xl: 40px;
+
+  /* Sizing */
+  --max-width: 1200px;
+  --navbar-height: 60px;
+  --video-max-width: 500px;
+
+  /* Typography */
+  --font-family: Arial, sans-serif;
+  --font-size-base: 16px;
+  --font-size-lg: 24px;
+  --font-size-h2: 32px;
+
+  /* Border & Radius */
+  --border-radius: 8px;
+  --border-radius-sm: 4px;
+
+  /* Transitions */
+  --transition-fast: 0.2s ease;
+  --transition-normal: 0.3s ease;
+  --transition-slow: 0.5s ease;
+
+  /* Shadows */
+  --shadow-sm: 0 2px 4px var(--color-shadow);
+  --shadow-md: 0 2px 8px var(--color-shadow);
+  --shadow-lg: 0 4px 12px var(--color-shadow);
+
+  /* Z-Index */
+  --z-navbar: 100;
+  --z-modal: 1000;
+}

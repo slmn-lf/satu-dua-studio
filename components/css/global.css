@@ -1,0 +1,46 @@
+/* Global Styles */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: var(--font-size-base);
+}
+
+body {
+  font-family: var(--font-family);
+  text-align: center;
+  background: var(--color-lighter);
+  color: #333;
+  line-height: 1.6;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-bottom: var(--spacing-md);
+  color: var(--color-primary);
+}
+
+h2 {
+  font-size: var(--font-size-h2);
+}
+
+/* Main Container */
+.container {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: var(--spacing-md);
+}
+
+/* Utility Classes */
+.content-wrapper {
+  display: flex;
+  gap: var(--spacing-md);
+}

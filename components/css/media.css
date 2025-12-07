@@ -1,0 +1,20 @@
+/* Media Elements & Camera Styles */
+
+video,
+#photo {
+  width: 100%;
+  max-width: var(--video-max-width);
+  height: auto;
+  border: 1px solid var(--color-border);
+  margin: var(--spacing-sm) auto;
+  display: block;
+  border-radius: var(--border-radius);
+}
+
+#photo {
+  background-color: var(--color-text);
+}
+
+#canvas {
+  display: none;
+}

@@ -1,0 +1,33 @@
+/* Button Styles */
+
+button {
+  padding: var(--spacing-sm) var(--spacing-md);
+  margin: var(--spacing-sm);
+  font-size: var(--font-size-base);
+  cursor: pointer;
+  border: none;
+  background-color: var(--color-secondary);
+  color: var(--color-text);
+  border-radius: var(--border-radius-sm);
+  transition: all var(--transition-normal);
+  font-weight: 500;
+  box-shadow: var(--shadow-sm);
+}
+
+button:hover {
+  background-color: #2980b9;
+  box-shadow: var(--shadow-md);
+  transform: translateY(-2px);
+}
+
+button:active {
+  transform: translateY(0);
+  box-shadow: var(--shadow-sm);
+}
+
+button:disabled {
+  background-color: #95a5a6;
+  cursor: not-allowed;
+  box-shadow: none;
+  transform: none;
+}

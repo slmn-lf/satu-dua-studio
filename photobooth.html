@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PhotoBooth</title>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <!-- Navigation Container -->
+    <div id="navbar-container"></div>
+
+    <main class="container">
+      <h2>📸 Ambil Foto dengan Kamera</h2>
+
+      <!-- Tampilan kamera (live stream) -->
+      <video id="video" autoplay playsinline></video>
+
+      <!-- Tempat menampilkan hasil foto -->
+      <canvas id="canvas" style="display: none"></canvas>
+      <img id="photo" alt="Foto Anda akan muncul di sini" />
+
+      <!-- Tombol aksi -->
+      <button id="capture">Ambil Foto</button>
+      <button id="stop">Stop Kamera</button>
+      <button id="download" style="display: none">Unduh Foto</button>
+    </main>
+
+    <script src="js/nav.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>

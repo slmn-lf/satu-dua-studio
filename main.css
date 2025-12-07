@@ -1,0 +1,19 @@
+/* ============================================
+   PhotoBooth - Main CSS File
+   Modular CSS Architecture
+   ============================================ */
+
+/* 1. Variables & Custom Properties */
+@import url("./components/css/variables.css");
+
+/* 2. Global Base Styles */
+@import url("./components/css/global.css");
+
+/* 3. Component Styles */
+@import url("./components/css/navbar.css");
+@import url("./components/css/media.css");
+@import url("./components/css/buttons.css");
+
+/* ============================================
+   Custom Styles & Overrides
+   ============================================ */
