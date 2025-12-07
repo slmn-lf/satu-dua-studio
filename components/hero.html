@@ -1,0 +1,58 @@
+<div class="booking-wrapper">
+  <!-- Kolom Kiri -->
+  <div class="left-box">
+    <h1>SatuDua Studio</h1>
+    <p>Abadikan momen spesial Anda dengan layanan photobooth profesional.</p>
+    <a href="/photobooth.html" class="cta-btn">Try PhotoBooth</a>
+
+    <div class="image-box">
+      <img src="/assets/images/img20" alt="Photobooth Image" />
+    </div>
+  </div>
+
+  <!-- Kolom Kanan (Form Booking) -->
+  <div class="right-box">
+    <h2>Form Booking</h2>
+
+    <form id="waForm">
+      <label>Nama Pemesan</label>
+      <input type="text" id="nama" required />
+
+      <label>Tanggal Acara</label>
+      <input type="date" id="tanggal" required />
+
+      <label>Lokasi Acara</label>
+      <input type="text" id="lokasi" required />
+
+      <label>Paket</label>
+      <select id="paket" required>
+        <option value="">-- Pilih Paket --</option>
+        <option>Basic</option>
+        <option>Premium</option>
+        <option>Exclusive</option>
+      </select>
+
+      <button type="submit" class="book-btn">Booking Sekarang</button>
+    </form>
+  </div>
+</div>
+
+<script>
+  document.getElementById("waForm").addEventListener("submit", function (e) {
+    e.preventDefault();
+
+    let nama = document.getElementById("nama").value;
+    let tanggal = document.getElementById("tanggal").value;
+    let lokasi = document.getElementById("lokasi").value;
+    let paket = document.getElementById("paket").value;
+
+    let message =
+      `Halo, saya ingin booking PhotoBooth:%0A%0A` +
+      `Nama: ${nama}%0A` +
+      `Tanggal: ${tanggal}%0A` +
+      `Lokasi: ${lokasi}%0A` +
+      `Paket: ${paket}`;
+
+    window.open(`https://wa.me/085773926953?text=${message}`, "_blank");
+  });
+</script>

@@ -1,0 +1,109 @@
+.booking-wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 60px;
+  gap: 50px;
+  max-width: 1200px;
+  margin: auto;
+  align-items: center;
+  background: #f8faff;
+  border-radius: 20px;
+}
+
+/* Kolom kiri */
+.left-box {
+  flex: 1;
+}
+
+.left-box h1 {
+  font-size: 42px;
+  margin-bottom: 10px;
+  color: #222;
+  font-family: fantasy;
+}
+
+.left-box p {
+  font-size: 18px;
+  margin-bottom: 20px;
+  color: #444;
+}
+
+.cta-btn {
+  display: inline-block;
+  padding: 12px 28px;
+  background: #007bff;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 10px;
+  transition: 0.3s ease;
+}
+
+.cta-btn:hover {
+  background: #005fcc;
+}
+
+.image-box img {
+  margin-top: 30px;
+  width: 100%;
+  max-width: 450px;
+  border-radius: 12px;
+  box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+/* Kolom kanan */
+.right-box {
+  flex: 1;
+  background: white;
+  padding: 35px;
+  border-radius: 14px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+}
+
+.right-box h2 {
+  margin-bottom: 20px;
+}
+
+form label {
+  font-weight: 600;
+  margin-top: 15px;
+  display: block;
+}
+
+form input,
+form select {
+  width: 100%;
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+}
+
+.book-btn {
+  width: 100%;
+  margin-top: 25px;
+  padding: 14px;
+  background: #28a745;
+  color: white;
+  font-size: 18px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.book-btn:hover {
+  background: #1e8a39;
+}
+
+/* Responsif */
+@media (max-width: 900px) {
+  .booking-wrapper {
+    flex-direction: column;
+    padding: 30px;
+  }
+
+  .image-box img {
+    max-width: 100%;
+  }
+}
