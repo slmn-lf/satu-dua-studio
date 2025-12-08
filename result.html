@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Satu Dua Studio - Pilih Frame</title>
+    <title>Satu Dua Studio - Hasil Foto</title>
     <link rel="stylesheet" href="main.css" />
     <!-- UIkit CSS -->
     <link
@@ -22,8 +22,8 @@
 
     <!-- Content Wrapper -->
     <div class="content">
-      <!-- Photobooth Frame Selection Component -->
-      <div id="photobooth-frame-selection-container"></div>
+      <!-- Photobooth Result Component -->
+      <div id="photobooth-result-container"></div>
     </div>
 
     <!-- Footer Container -->
@@ -39,10 +39,7 @@
       document.addEventListener("DOMContentLoaded", () => {
         loadHTMLComponent("components/navbar.html", "navbar-container");
         loadHTMLComponent("components/footer.html", "footer-container");
-        loadPhotoboothComponent(
-          "frame-selection",
-          "photobooth-frame-selection-container"
-        );
+        loadPhotoboothComponent("result", "photobooth-result-container");
       });
     </script>
   </body>

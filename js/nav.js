@@ -32,7 +32,32 @@ function loadHTMLComponent(componentPath, elementId) {
     });
 }
 
+// Set active navbar link based on current page
+function setActiveNavLink() {
+  const currentPage = window.location.pathname;
+  const navLinks = document.querySelectorAll(".nav-link");
+
+  navLinks.forEach((link) => {
+    // Remove active class from all links
+    link.classList.remove("active");
+
+    // Get the href attribute
+    const href = link.getAttribute("href");
+
+    // Match the current page with the link's href
+    if (
+      currentPage.includes(href) ||
+      (href === "index.html" && currentPage.endsWith("/"))
+    ) {
+      link.classList.add("active");
+    }
+  });
+}
+
 // Load navigation bar when DOM is ready
 document.addEventListener("DOMContentLoaded", () => {
   loadHTMLComponent("components/navbar.html", "navbar-container");
+
+  // Set active link after navbar is loaded
+  document.addEventListener("componentLoaded", setActiveNavLink);
 });

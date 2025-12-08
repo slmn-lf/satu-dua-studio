@@ -1,18 +1,17 @@
 <div class="booking-wrapper">
   <!-- Kolom Kiri -->
   <div class="left-box">
-    <h1>SatuDua Studio</h1>
-    <p>Abadikan momen spesial Anda dengan layanan photobooth profesional.</p>
-    <a href="/photobooth.html" class="cta-btn">Try PhotoBooth</a>
-
     <div class="image-box">
       <img src="/assets/images/img20" alt="Photobooth Image" />
     </div>
+    <h1>SatuDua Studio</h1>
+    <p>Abadikan momen spesial Anda dengan layanan photobooth profesional.</p>
+    <a href="/photobooth.html" class="cta-btn">Try PhotoBooth</a>
   </div>
 
   <!-- Kolom Kanan (Form Booking) -->
   <div class="right-box">
-    <h2>Form Booking</h2>
+    <h2>Booking</h2>
 
     <form id="waForm">
       <label>Nama Pemesan</label>
@@ -24,15 +23,15 @@
       <label>Lokasi Acara</label>
       <input type="text" id="lokasi" required />
 
-      <label>Paket</label>
-      <select id="paket" required>
-        <option value="">-- Pilih Paket --</option>
-        <option>Basic</option>
-        <option>Premium</option>
-        <option>Exclusive</option>
+      <label>Jenis Acara</label>
+      <select id="jenisAcara" required>
+        <option value="">Jenis Acara</option>
+        <option>Wedding</option>
+        <option>Birthday</option>
+        <option>Graduation</option>
       </select>
 
-      <button type="submit" class="book-btn">Booking Sekarang</button>
+      <button type="submit" class="book-btn"><p>Cek Ketersediaan</p></button>
     </form>
   </div>
 </div>
@@ -44,14 +43,14 @@
     let nama = document.getElementById("nama").value;
     let tanggal = document.getElementById("tanggal").value;
     let lokasi = document.getElementById("lokasi").value;
-    let paket = document.getElementById("paket").value;
+    let jenisAcara = document.getElementById("jenisAcara").value;
 
     let message =
       `Halo, saya ingin booking PhotoBooth:%0A%0A` +
       `Nama: ${nama}%0A` +
       `Tanggal: ${tanggal}%0A` +
       `Lokasi: ${lokasi}%0A` +
-      `Paket: ${paket}`;
+      `Jenis Acara: ${jenisAcara}`;
 
     window.open(`https://wa.me/085773926953?text=${message}`, "_blank");
   });

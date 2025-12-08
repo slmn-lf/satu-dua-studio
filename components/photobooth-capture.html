@@ -1,0 +1,61 @@
+<div class="capture-container">
+  <!-- Left Side - Camera -->
+  <div class="camera-section">
+    <!-- Countdown Overlay -->
+    <div id="countdown-overlay" class="countdown-overlay" style="display: none">
+      <div class="countdown-content">
+        <div class="countdown-circle">
+          <div class="countdown-number" id="countdown-number">3</div>
+        </div>
+        <p id="countdown-text">Bersiaplah untuk foto</p>
+      </div>
+    </div>
+
+    <!-- Video -->
+    <video id="video" autoplay playsinline></video>
+    <canvas id="canvas" style="display: none"></canvas>
+    <canvas id="final-canvas" style="display: none"></canvas>
+  </div>
+
+  <!-- Right Side - Controls & Preview -->
+  <div class="controls-section">
+    <div class="controls-content">
+      <h2>Capture</h2>
+
+      <!-- Status -->
+      <div class="capture-status">
+        <p id="status-text">Siap untuk memulai</p>
+      </div>
+
+      <!-- Preview Photos -->
+      <div
+        id="preview-container"
+        class="preview-container"
+        style="display: none"
+      >
+        <h3>Foto Diambil</h3>
+        <div class="preview-grid">
+          <div class="preview-box">
+            <img id="preview-1" alt="Foto 1" />
+            <span>Foto 1</span>
+          </div>
+          <div class="preview-box">
+            <img id="preview-2" alt="Foto 2" />
+            <span>Foto 2</span>
+          </div>
+          <div class="preview-box">
+            <img id="preview-3" alt="Foto 3" />
+            <span>Foto 3</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Control Buttons -->
+      <div class="control-buttons">
+        <button id="start-capture" class="btn-start">
+          <i class="fas fa-camera"></i> Mulai Capture
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
