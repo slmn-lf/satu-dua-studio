@@ -162,6 +162,10 @@ function capturePhoto() {
   canvas.width = 909;
   canvas.height = 476;
 
+  // Flip canvas horizontally to compensate for CSS mirror on video element
+  context.scale(-1, 1);
+  context.translate(-909, 0);
+
   // Draw cropped video frame
   context.drawImage(video, cropX, cropY, cropWidth, cropHeight, 0, 0, 909, 476);
 

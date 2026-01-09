@@ -47,7 +47,7 @@
 }
 
 .nav-link:hover {
-  color: var(--color-secondary);
+  color: #1dc9d6;
 }
 
 .nav-link.active {
