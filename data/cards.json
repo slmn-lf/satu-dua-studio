@@ -1,62 +1,50 @@
 [
   {
     "id": 1,
-    "image": "/assets/images/photobooth-basic.jpg",
+    "image": "assets/images/images 1.jpg",
     "title": "Basic Photobooth",
-    "desc": "Paket photobooth simpel, cocok buat birthday dan gathering kecil."
+    "desc": "Simple photobooth package, suitable for birthdays and small gatherings."
   },
   {
     "id": 2,
-    "image": "/assets/images/photobooth-wedding.jpg",
+    "image": "assets/images/image 2.jpg",
     "title": "Wedding Photobooth",
-    "desc": "Photobooth eksklusif buat momen wedding yang unforgettable."
+    "desc": "Exclusive photobooth for unforgettable wedding moments."
   },
   {
     "id": 3,
-    "image": "/assets/images/photobooth-event.jpg",
+    "image": "assets/images/image 3.jpg",
     "title": "Event Photobooth",
-    "desc": "Solusi photobooth buat event kantor dan launching brand."
+    "desc": "Photobooth solution for corporate events and brand launches."
   },
   {
     "id": 4,
-    "image": "/assets/images/photobooth-360.jpg",
+    "image": "assets/images/image 4.jpg",
     "title": "360° Photobooth",
-    "desc": "Pengalaman foto & video 360 derajat yang lagi viral."
+    "desc": "360° photo and video experience that's trending now."
   },
   {
     "id": 5,
-    "image": "/assets/images/photobooth-instant.jpg",
+    "image": "assets/images/image 7.jpg",
     "title": "Instant Print",
-    "desc": "Cetak foto langsung jadi, tamu bawa pulang kenangan."
+    "desc": "Instant photo printing, guests take home their memories."
   },
   {
     "id": 6,
-    "image": "/assets/images/photobooth-props.jpg",
+    "image": "assets/images/image 5.jpg",
     "title": "Fun Props",
-    "desc": "Properti lucu dan estetik biar foto makin hidup."
+    "desc": "Funny and aesthetic props to make photos more lively."
   },
   {
     "id": 7,
-    "image": "/assets/images/photobooth-backdrop.jpg",
+    "image": "assets/images/image 6.jpg.jpg",
     "title": "Custom Backdrop",
-    "desc": "Backdrop custom sesuai tema event kamu."
+    "desc": "Custom backdrops to suit your event theme."
   },
   {
     "id": 8,
-    "image": "/assets/images/photobooth-digital.jpg",
+    "image": "assets/images/image 8.jpg.jpg",
     "title": "Digital Gallery",
-    "desc": "Akses semua foto secara online setelah acara."
-  },
-  {
-    "id": 9,
-    "image": "/assets/images/photobooth-ai.jpg",
-    "title": "AI Photobooth",
-    "desc": "Photobooth AI dengan efek dan filter kekinian."
-  },
-  {
-    "id": 10,
-    "image": "/assets/images/photobooth-premium.jpg",
-    "title": "Premium Package",
-    "desc": "Paket lengkap buat event besar dan super fancy."
+    "desc": "Access all photos online after the event."
   }
 ]
