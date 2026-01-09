@@ -1,4 +1,4 @@
-import { getServices, buyService } from "../services/PhotoboothService.js";
+import { getServices, buyService } from "../services/photoboothService.js";
 import { ServiceCard } from "../../components/ServiceCard.js";
 
 export const renderServices = async () => {
