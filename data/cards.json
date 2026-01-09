@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "image": "/assets/images/photobooth-basic.jpg",
+    "title": "Basic Photobooth",
+    "desc": "Paket photobooth simpel, cocok buat birthday dan gathering kecil."
+  },
+  {
+    "id": 2,
+    "image": "/assets/images/photobooth-wedding.jpg",
+    "title": "Wedding Photobooth",
+    "desc": "Photobooth eksklusif buat momen wedding yang unforgettable."
+  },
+  {
+    "id": 3,
+    "image": "/assets/images/photobooth-event.jpg",
+    "title": "Event Photobooth",
+    "desc": "Solusi photobooth buat event kantor dan launching brand."
+  },
+  {
+    "id": 4,
+    "image": "/assets/images/photobooth-360.jpg",
+    "title": "360° Photobooth",
+    "desc": "Pengalaman foto & video 360 derajat yang lagi viral."
+  },
+  {
+    "id": 5,
+    "image": "/assets/images/photobooth-instant.jpg",
+    "title": "Instant Print",
+    "desc": "Cetak foto langsung jadi, tamu bawa pulang kenangan."
+  },
+  {
+    "id": 6,
+    "image": "/assets/images/photobooth-props.jpg",
+    "title": "Fun Props",
+    "desc": "Properti lucu dan estetik biar foto makin hidup."
+  },
+  {
+    "id": 7,
+    "image": "/assets/images/photobooth-backdrop.jpg",
+    "title": "Custom Backdrop",
+    "desc": "Backdrop custom sesuai tema event kamu."
+  },
+  {
+    "id": 8,
+    "image": "/assets/images/photobooth-digital.jpg",
+    "title": "Digital Gallery",
+    "desc": "Akses semua foto secara online setelah acara."
+  },
+  {
+    "id": 9,
+    "image": "/assets/images/photobooth-ai.jpg",
+    "title": "AI Photobooth",
+    "desc": "Photobooth AI dengan efek dan filter kekinian."
+  },
+  {
+    "id": 10,
+    "image": "/assets/images/photobooth-premium.jpg",
+    "title": "Premium Package",
+    "desc": "Paket lengkap buat event besar dan super fancy."
+  }
+]

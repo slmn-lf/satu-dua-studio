@@ -1,3 +1,2 @@
-document.addEventListener("DOMContentLoaded", () => {
-  loadHTMLComponent("components/card-service.html", "card-services");
-});
+// This file is deprecated - cards are now rendered dynamically from JSON
+// See servicesPage.js for the updated implementation

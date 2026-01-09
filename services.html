@@ -20,16 +20,15 @@
     <!-- Navigation Container -->
     <div id="navbar-container"></div>
     <div class="content">
-      <div id="card-services"></div>
+      <section id="services-container"></section>
     </div>
-
+    <script type="module">
+      import { renderServices } from "./js/pages/servicesPage.js";
+      document.addEventListener("DOMContentLoaded", renderServices);
+    </script>
     <script src="js/nav.js"></script>
-    <script src="js/card-service.js"></script>
     <script src="js/footer.js"></script>
     <!-- Footer Container -->
     <div id="footer-container"></div>
   </body>
-  <script>
-    let = getElementById;
-  </script>
 </html>
